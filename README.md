@@ -1,4 +1,4 @@
-\*\* FrontEnd Static BoilerPlate
+##FrontEnd Static BoilerPlate
 
 - Webpack@5
 - EJS

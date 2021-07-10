@@ -1,0 +1,42 @@
+{
+  "name": "webpack-test-0709",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./index.js",
+  "browserslist": [
+    "IE 11"
+  ],
+  "scripts": {
+    "analyze": "webpack --progress --analyze",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack serve",
+    "build": "NODE_ENV=production webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.14.7",
+    "autoprefixer": "^10.2.6",
+    "babel-loader": "^8.2.2",
+    "copy-webpack-plugin": "^9.0.1",
+    "core-js": "^3.15.2",
+    "css-loader": "^5.2.6",
+    "file-loader": "^6.2.0",
+    "html-loader": "^2.1.2",
+    "html-webpack-plugin": "^5.3.2",
+    "image-minimizer-webpack-plugin": "^2.2.0",
+    "mini-css-extract-plugin": "^2.1.0",
+    "postcss": "^8.3.5",
+    "postcss-loader": "^6.1.1",
+    "sass": "^1.35.2",
+    "sass-loader": "^12.1.0",
+    "style-loader": "^3.0.0",
+    "template-ejs-loader": "^0.5.0",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.44.0",
+    "webpack-bundle-analyzer": "^4.4.2",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
